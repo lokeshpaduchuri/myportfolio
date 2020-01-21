@@ -23,10 +23,51 @@
 
 .banner-text{
   background-color: black;
-  opacity: 25%;
   width: 75%;
+  height: auto;
   margin: auto;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 400px){
+  .landing-grid{
+    position: relative !important;
+    height: 70% !important;
+  }
+  
+  .banner-text h1{
+    font-size: 30px !important; 
+  }
+  
+  .banner-text p{
+    font-size: 15px !important;
+  }
+
+  .social-links i{
+    font-size: 2em !important;
+  }
+
+  .aboutMeText{
+    font-size: 10px !important;
+  }
+
+  .listItemStyles{
+    font-size: 10px !important;
+    font-family: 'Anton';
+  }
+
+  .contactClass{
+    font-size: 20px !important;
+  }
+
+  .contact-grid-class{
+    height: 100%;
+  }
+
+  .contactMeAvatar{
+    height: 100px !important;
+  }
+  
 }
 
 .banner-text h1{
@@ -107,6 +148,10 @@
   background: white;
   color: black;
   margin-bottom: 20px;
+}
+
+.contactMeAvatar{
+  height: 250px;
 }
 
 .myName{

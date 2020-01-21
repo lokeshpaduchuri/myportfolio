@@ -17,7 +17,7 @@ class Aboutme extends Component{
                     <p className= 'aboutMeText'>Experience with cloud technologies like Firebase and AWS</p>
                     <p className= 'aboutMeText'>Photographer with footprints in landscape, portraits and wildlife photography</p>
                     <p className= 'aboutMeText'>Been in development since 2015 and photography since 2011</p>
-                    </Cell>
+                </Cell>
                 </Grid>
             </div>
         )
