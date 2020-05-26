@@ -30,21 +30,25 @@
 }
 
 @media screen and (max-width: 400px){
+  .avatar-img{
+    height: 10vh;
+  }
   .landing-grid{
     position: relative !important;
     height: 70% !important;
+    width: 100% !important;
   }
   
-  .banner-text h1{
+  .bannerHeader{
     font-size: 30px !important; 
   }
   
-  .banner-text p{
+  .bannertechnologies{
     font-size: 15px !important;
   }
 
   .social-links i{
-    font-size: 2em !important;
+    font-size: 1em !important;
   }
 
   .aboutMeText{
@@ -70,8 +74,10 @@
   
 }
 
-.banner-text h1{
-  font-size: 66px;
+.bannerHeader{
+  margin-top: 30px;
+  font-size: 50px;
+  padding-top: 20px;
   font-weight: bold;
   color: white;
 }
@@ -82,7 +88,7 @@
   margin: auto;
 }
 
-.banner-text p{
+.bannertechnologies{
   color: white;
   font-size: 20px;
   padding: 1em;
@@ -148,6 +154,11 @@
   background: white;
   color: black;
   margin-bottom: 20px;
+}
+
+.demo-big-content{
+  height: 100vh;
+  width: 100vh;
 }
 
 .contactMeAvatar{

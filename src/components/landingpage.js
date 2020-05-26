@@ -13,12 +13,12 @@ class Landingpage extends Component{
                          className="avatar-img"
                         />
                         <div className="banner-text">
-                            <h1>Full Stack Developer</h1>
+                            <p className="bannerHeader">Full Stack Developer</p>
                             <hr></hr>
-                            <p>HTML/CSS | Bootstrap | Javascript | Angular | React | React Native | AWS | Firebase | Google Analytics </p>
+                            <p className="bannertechnologies">HTML/CSS | Bootstrap | Javascript | Angular | React | React Native | AWS | Firebase | Google Analytics </p>
                             <div className="social-links">
                                 {/* LinkedIn */}
-                                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/lokeshpaduchuri" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-linkedin" aria-hidden="true"></i>
                                 </a>
 

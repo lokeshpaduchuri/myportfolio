@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="demo-big-content">
+    <div className="demo-big-content" >
       <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Lokesh's Portfolio</Link>} scroll>
             <Navigation>
@@ -18,7 +18,7 @@ function App() {
               </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Lokesh's Portfolio</Link>}>
-          <Navigation>
+          <Navigation className=" mdl-grid mdl-cell--4-col-phone">
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
@@ -32,12 +32,12 @@ function App() {
             <Footer size="mini" className="footerClass">
             <FooterSection type="left" className="footerSectionClass">
             <FooterLinkList>
-              <p>Copyrights  <i className="fa fa-copyright" aria-hidden="true"></i> Lokesh Paduchuri 2019</p>
+              <p>Copyrights  <i className="fa fa-copyright" aria-hidden="true"></i> Lokesh Paduchuri 2020</p>
             </FooterLinkList>
             </FooterSection>
             <FooterLinkList className="footerLinks">
               {/* LinkedIn */}
-              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/lokeshpaduchuri" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
 

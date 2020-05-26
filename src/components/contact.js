@@ -20,11 +20,11 @@ class Contact extends Component{
                         <hr className='underline'/>
                         <div className='contact-list'>
                             <List>
-                                <ListItem>
+                                {/* <ListItem>
                                     <ListItemContent className='listItemStyles'>
                                         <i className="fa fa-phone iconFont"/>+1-682-208-4109
                                     </ListItemContent>
-                                </ListItem>
+                                </ListItem> */}
                                 <ListItem>
                                     <ListItemContent className='listItemStyles'>
                                         <i className="fa fa-envelope iconFont"/>lokeshpaduchuri@gmail.com
