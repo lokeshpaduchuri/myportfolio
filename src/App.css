@@ -133,8 +133,23 @@
   padding: 8px;
 }
 
-.projects-grid{
-  display: flex;
+.project-grid{
+  display: block;
+  height: 500px;
+  width: 600px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.project-button{
+  height: 30px;
+  line-height: 0.5;
+  background-color: #4d823f;
+  opacity: 0.9;
+  color: beige;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 /* Contact Page CSS */
