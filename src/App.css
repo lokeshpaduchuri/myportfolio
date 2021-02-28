@@ -34,11 +34,7 @@
   .avatar-img{
     height: 10vh;
   }
-  .landing-grid{
-    position: relative !important;
-    height: 70% !important;
-    width: 100% !important;
-  }
+  
   
   .bannerHeader{
     font-size: 30px !important; 
@@ -73,6 +69,10 @@
     height: 100px !important;
   }
   
+  .media{
+    height: 150px;
+    width: 150px;
+  }
 }
 
 .bannerHeader{
@@ -105,11 +105,19 @@
   height: 20px;
   text-align: center;
   justify-content: center;
-  padding: 20px 40px !important;
 }
 
-.footerSectionClass{
-  width: 20%;
+.desktopFooterPadding{
+  padding: 20px 40px !important;
+}
+.phoneFooterClass{
+  padding: 10px 10px !important;
+}
+
+.footerCopyrightClass p{
+  font-size: 10px;
+  width: 250px;
+  text-align: left;
 }
 
 .footerLinks{
@@ -117,6 +125,10 @@
   right: 0;
   margin-right: 20px;
   font-size: 30px;
+}
+
+.phoneIcon i {
+  font-size: 20px;
 }
 
 .social-links{
@@ -172,10 +184,10 @@
   margin-bottom: 20px;
 }
 
-.demo-big-content{
+/* .demo-big-content{
   height: 100vh;
   width: 100vh;
-}
+} */
 
 .contactMeAvatar{
   height: 250px;
@@ -225,6 +237,10 @@
 /* Resume Page CSS */
 .resume-left-col{
   text-align: center;
+}
+
+.phoneAvatar{
+  height: 150px !important;
 }
 
 .resume-right-col{
@@ -279,3 +295,34 @@
   font-size: 20px;
 }
 
+.Portfolio{
+
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  border-radius: 5px;
+  margin: 0px 25px;
+  box-shadow: 20px 20px 20px black;
+  display: flex;
+  justify-content: center;
+}
+
+.phoneMedia{
+  height: 500px;
+  width: 280px;
+}
+
+.media {
+
+  /* @media screen and (min-width: 1024px) { */
+    height: 500px;
+    width: 425px;
+  /* `} */
+  
+}

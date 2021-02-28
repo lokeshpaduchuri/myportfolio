@@ -3,8 +3,12 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
 import Main from '../src/components/main';
 import { Link } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
+
 
 function App() {
+
+  const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 });
   return (
     <div className="demo-big-content" >
       <Layout>
@@ -29,13 +33,13 @@ function App() {
         <Content>
             <div className="page-content" />
             <Main/>
-            <Footer size="mini" className="footerClass">
+            <Footer size="mini" className={`footerClass ${isTabletOrMobile ? "phoneFooterClass" : " footerClass"}`}>
             <FooterSection type="left" className="footerSectionClass">
-            <FooterLinkList>
+            <FooterLinkList className="footerCopyrightClass">
               <p>Copyrights  <i className="fa fa-copyright" aria-hidden="true"></i> Lokesh Paduchuri 2020</p>
             </FooterLinkList>
             </FooterSection>
-            <FooterLinkList className="footerLinks">
+            <FooterLinkList className={`footerLinks ${isTabletOrMobile ? "phoneIcon" : " desktopIcon"}`}>
               {/* LinkedIn */}
               <a href="https://www.linkedin.com/in/lokeshpaduchuri" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
@@ -47,7 +51,7 @@ function App() {
               </a>
 
               {/* Instagram */}
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/lokip_photography/" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </FooterLinkList>
